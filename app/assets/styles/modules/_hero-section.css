@@ -1,0 +1,65 @@
+.hero-section{
+    position: relative;
+    border-bottom: 15px solid $mainBlue;
+    &__text-content{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        text-align:center;
+        width: 100%;
+        @mixin atMedium{
+            padding-top: 0;
+        }
+    }
+    img{
+        display: block;
+    }
+    &__title{
+        text-transform: uppercase;
+        color: $white;
+        font-weight: 900;
+        font-size: rem(20px);
+        margin-bottom: rem(11px);
+        @mixin atMedium{
+            font-size: rem(25px);
+            margin-bottom: rem(14px);
+        }
+        @mixin atLarge{
+            font-size: rem($headerSize);
+            margin-bottom: rem(16px);
+        }
+    }
+    &__description{
+        color: $white;
+        font-weight: 500;
+        font-size: rem(16px);
+        margin: auto;
+        margin-bottom: rem(11px);
+        max-width: 250px;
+        @mixin atMedium{
+            margin-bottom: rem(14px);
+            font-size: rem(13px);
+        }
+        @mixin atLarge{
+            max-width: 370px;
+            font-size: $subHeaderSize;
+            margin-bottom: rem(17px);
+        }
+    }
+    &__btn{
+        color: $white;
+        background: $secondaryBlue;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        width: 180px;
+        height: 36px;
+        font-size: rem(16px);
+        @mixin atLarge{
+            width: 230px;
+            height: 48px;
+            font-size: $workAndServiceHeader;
+        }
+    }
+}

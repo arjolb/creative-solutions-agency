@@ -1,0 +1,45 @@
+.clients{
+    &__first-group{
+        @mixin atMedium{
+            margin-bottom: 55px;
+        }
+    }
+    &__icons{
+        @mixin clearfix;
+        /* &-img-2{
+            margin: auto;
+        }
+        &-img-3{
+            margin-left: auto;
+        }
+        &-img-4{
+            margin-left: auto;
+        } */
+    li{
+        list-style: none;
+        float: left;
+        width: 25%;
+        position: relative;
+        padding-right: 22px;
+        &:nth-child(2){
+            img{
+                margin: auto;
+            }
+        }
+        &:nth-child(3){
+            img{
+                margin-left: auto;
+            }
+        }
+        &:last-child{
+           padding-right: 0;
+           img{
+               margin-left: auto;
+           }
+        }
+        img{
+            display: block;
+        }
+    }
+    }
+}

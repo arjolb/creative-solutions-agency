@@ -1,0 +1,19 @@
+/*  From javascript reveal on scroll  */
+.reveal-item{
+    opacity: 0;
+    transform: scale(1.2);
+    transition: all 1.3s ease-in-out;
+    &--is-visible{
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    &--clients{
+        position: relative;
+        left: -999px;
+        transition: all .6s ease-in;
+        &--is-visible{
+            left: 0;
+        }
+    }
+}

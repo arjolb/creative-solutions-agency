@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Creative Solutions</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    
+    <!-- build:css /assets/styles/styles.css -->
+    <link rel="stylesheet" href="temp/styles/styles.css">
+    <!-- endbuild -->
+    
+    <!-- build:js /assets/scripts/Vendor.js -->
+    <script src="temp/scripts/Vendor.js"></script>
+    <!-- endbuild -->
+
+</head>
+<body>
+<header class="site-header">
+<div class="wrapper">
+<div class="site-header__logo">
+    <!-- <img src="./assets/images/icons/Logo.svg" alt="Logo"> -->
+    <div class="icon icon--Logo"></div>
+</div>
+
+<div class="site-header__menu-icon">
+    <div class="site-header__menu-icon__middle"></div>
+</div>
+
+
+<div class="site-header__menu-content">
+    <a href="#" class="site-header__btn open-contact-modal">GET IN TOUCH</a>
+    <nav class="site-header__nav">
+        <ul>
+            <li><a href="#services" id="services-link">SERVICES</a></li>
+            <li><a href="#our-works" id="our-works-link">OUR WORK</a></li>
+            <li><a href="#testimonials" id="testimonials-link">TESTIMONIALS</a></li>
+            <li><a href="#clients" id="clients-link">CLIENTS</a></li>
+            <li><a href="#team" id="team-link">OUR TEAM</a></li>
+        </ul>
+    </nav>
+</div>
+</div>
+</header>
+
+<div class="hero-section">
+<picture>
+    <source data-srcset="assets/images/hero-large.jpg 1920w, assets/images/hero-large-hi-dpi.jpg 3840w" media="(min-width: 1440px)">     
+    <source data-srcset="assets/images/hero-medium.jpg 1400w, assets/images/hero-medium-hi-dpi.jpg 2800w" media="(min-width: 700px)">   
+    <img class="lazyload" data-srcset="assets/images/hero-small.jpg 620w" alt="Hero Background">
+    </picture>
+    
+    <div class="hero-section__text-content">
+        <h1 class="hero-section__title">we're creative agency</h1>
+        <h2 class="hero-section__description">Lorem ipsum dolor sit amet,  consectetur adipiscing elit. </h2>
+        <button class="hero-section__btn open-contact-modal">Work With Us</button>
+    </div>
+</div>
+
+<!-- SERVICES -->
+<div id="services" data-link="#services-link" class="page-section">
+    <div class="wrapper">
+        <div class="services">
+            <h1 class="generic-content__title">what we do</h1>
+            <div class="generic-content__underline"></div>
+            <h2 class="generic-content__subtitle">Aenean commodo ligula eget dolor. Aenean massa.</h2>
+            
+            <div class="generic-content__container-1">
+                <div class="row">
+                    <div class="col col-md-4">
+                        <div class="services__item">
+                                <div class="services__icon-container">
+                                    <!-- <img src="assets/images/icons/WebDesign.svg" alt="Web Design"> -->
+                                    <div class="icon icon--WebDesign services__icon-container-img"></div>
+                                </div>
+                                <h3 class="services__title">web design</h3>
+                                <p class="services__description">
+                                    Aliquam aliquet fringilla ipsum,xeu bibendum ipsum tempor id. Nulla porttitor nulla dui, et lobortis magna feugiat non
+                                </p>
+                                <div class="services__btn-container">
+                                    <button class="services__btn">learn more</button>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-4">
+                        <div class="services__item">
+                                <div class="services__icon-container">
+                                    <!-- <img src="assets/images/icons/WebDevelopment.svg" alt="Web Development"> -->
+                                    <div class="icon icon--WebDevelopment services__icon-container-img"></div>
+                                </div>
+                                <h3 class="services__title">web development</h3>
+                                <p class="services__description">
+                                    Aliquam aliquet fringilla ipsum,xeu bibendum ipsum tempor id. Nulla porttitor nulla dui, et lobortis magna feugiat non
+                                </p>
+                                <div class="services__btn-container">
+                                    <button class="services__btn">learn more</button>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-4">
+                        <div class="services__item">
+                                <div class="services__icon-container">
+                                    <!-- <img src="assets/images/icons/InternetMarketing.svg" alt="Internet Marketing"> -->
+                                    <div class="icon icon--InternetMarketing services__icon-container-img"></div>
+                                </div>
+                                <h3 class="services__title">Internet Marketing</h3>
+                                <p class="services__description">
+                                    Aliquam aliquet fringilla ipsum,xeu bibendum ipsum tempor id. Nulla porttitor nulla dui, et lobortis magna feugiat non
+                                </p>
+                                <div class="services__btn-container">
+                                    <button class="services__btn services__btn-no-bottom-m">learn more</button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!-- OUR WORKS -->
+<section id="our-works" data-link="#our-works-link" class="page-section page-section__grey">
+    <div class="wrapper">
+        <h1 class="generic-content__title">our latest work</h1>
+        <div class="generic-content__underline"></div>
+        <h2 class="generic-content__subtitle">Aenean commodo ligula eget dolor. Aenean massa.</h2>
+        
+        <div class="generic-content__container-2 generic-content__container-2-less-bottom-padding">
+            <div class="our-works__btn-categories">
+                <ul>
+                    <li><h3 class="our-works__btn-categories-all">All</h3></li>
+                    <li><h3 class="our-works__btn-categories-angular">Angular</h3></li>
+                    <li><h3 class="our-works__btn-categories-react">React</h3></li>
+                    <li><h3 class="our-works__btn-categories-wordpress">Wordpress</h3></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="generic-content__container-2-no-top-p">
+            <div class="row">
+                <div class="col col-sm-1">&nbsp;</div>
+                <div class="col col-md-10">
+                    <ul class="our-works__images">
+                        <li class="wordpress" data-category="wordpress">
+                            <a href="assets/images/modal/wordpress1.jpg" data-lightbox="projects" data-title="Wordpress Project">
+                                <img class="lazyload" data-src="assets/images/wordpress1.jpg" alt="Wordpress">
+                            </a>
+                        </li>
+                        <li class="wordpress" data-category="wordpress">
+                            <a href="assets/images/modal/wordpress2.jpg" data-lightbox="projects" data-title="Wordpress Project">
+                                <img class="lazyload" data-src="assets/images/wordpress2.jpg" alt="Wordpress">
+                            </a>
+                        </li>
+                        <li class="wordpress" data-category="wordpress">
+                            <a href="assets/images/modal/wordpress3.jpg" data-lightbox="projects" data-title="Wordpress Project">
+                                <img class="lazyload" data-src="assets/images/wordpress3.jpg" alt="Wordpress"></a>
+                        </li>
+                        <li class="angular" data-category="angular">
+                            <a href="assets/images/modal/angular1.jpg" data-lightbox="projects" data-title="Angular Project">
+                                <img class="lazyload" data-src="assets/images/angular1.jpg" alt="Angular">
+                            </a>
+                        </li>
+                        <li class="react" data-category="react">
+                            <a href="assets/images/modal/react1.jpg" data-lightbox="projects" data-title="React Project">
+                                <img class="lazyload" data-src="assets/images/react1.jpg" alt="React">
+                            </a>
+                        </li>
+                        <li class="react" data-category="react">
+                            <a href="assets/images/modal/react2.jpg" data-lightbox="projects" data-title="React Project">
+                                <img class="lazyload" data-src="assets/images/react2.jpg" alt="React">
+                            </a>
+                        </li>
+                        <li class="angular" data-category="angular">
+                            <a href="assets/images/modal/angular2.jpg" data-lightbox="projects" data-title="Angular Project">
+                                <img class="lazyload" data-src="assets/images/angular2.jpg" alt="Angular">
+                            </a>
+                        </li>
+                        <li class="wordpress" data-category="wordpress" data-lightbox="projects" data-title="Wordpress Project">
+                            <a href="#">
+                                <img class="lazyload" data-src="assets/images/wordpress4.jpg" alt="Wordpress">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col col-sm-1">&nbsp;</div>
+            </div>
+
+            <button class="generic-content__btn">View More Work &rarr;</button>
+        </div>              
+        
+    </div>
+</section>
+
+<div class="page-section" id="testimonials" data-link="#testimonials-link">
+    <h1 class="generic-content__title">testimonials</h1>
+    <div class="generic-content__underline"></div>
+    <h2 class="generic-content__subtitle">Aenean commodo ligula eget dolor. Aenean massa.</h2>
+
+    <div class="generic-content__container-1">
+        <div class="testimonials">
+            <div class="testimonials__description">
+                <div class="testimonials__arrows testimonials__arrows-left-arrow"></div>
+                <div class="testimonials__arrows testimonials__arrows-right-arrow"></div>
+                <div class="testimonials__slides">
+                    <p class="slide">
+                      Nunc condimentum neque lacus, in porttitor nibh mattis aliquam. Vivamus quis dictum turpis. Nunc sed quam eu neque lobortis euismod a non eros.
+                    </p>
+                    <p class="slide">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem nam exercitationem consequuntur debitis ullam nihil eum!Nullam rutrum nisl vitae mauris lacinia fringilla.
+                    </p>
+                    <p class="slide">
+                      Ut libero felis, placerat ut ullamcorper eget, tempor sit amet turpis. Sed id erat sed dui rhoncus bibendum. Praesent posuere metus vel erat porttitor, vel porta nisi sollicitudin.
+                    </p>
+                    <div class="testimonials__testimonial">
+                        <h3 class="testimonials__person">Jack F.</h3>
+                        <h3 class="testimonials__person">Rick E.</h3>
+                        <h3 class="testimonials__person">Raoul L.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- CLIENTS -->
+<div class="page-section page-section__grey" id="clients" data-link="#clients-link">
+<div class="wrapper">
+    <h1 class="generic-content__title clients__text">our Happy client</h1><!-- clients__text used in javascript -->
+    <div class="generic-content__underline clients__text"></div><!-- clients__text used in javascript -->
+    <h2 class="generic-content__subtitle clients__text">Aenean commodo ligula eget dolor. Aenean massa.</h2><!-- clients__text used in javascript -->
+    
+    <div class="generic-content__container-2">
+        <!-- First Group -->
+            <div class="clients clients__first-group">
+                    <div class="row">
+                            <div class="col col-sm-1">&nbsp;</div>
+                            <div class="col col-md-10">
+                                <ul class="clients__icons">
+                                    <li>
+                                        <img src="assets/images/icons/Google.svg" alt="Google">
+                                        <!-- <div class="icon icon--Google clients__icons-img-1"></div> -->
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/icons/Yahoo.svg" alt="Yahoo">
+                                        <!-- <div class="icon icon--Yahoo clients__icons-img-2"></div> -->
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/icons/Microsoft.svg" alt="Microsoft">
+                                        <!-- <div class="icon icon--Microsoft clients__icons-img-3"></div> -->
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/icons/Intel.svg" alt="Intel">
+                                        <!-- <div class="icon icon--Intel clients__icons-img-4"></div> -->
+                                    </li>
+                                </ul>
+                            </div>
+                        <div class="col col-sm-1">&nbsp;</div>
+                    </div> 
+            </div>  
+
+        <!-- Second Group -->  
+            <div class="clients clients__second-group">
+                    <div class="row">
+                            <div class="col col-sm-1">&nbsp;</div>
+                            <div class="col col-md-10">
+                                <ul class="clients__icons">
+                                        <li>
+                                                <img src="assets/images/icons/Qualcom.svg" alt="Google">
+                                                <!-- <div class="icon icon--Qualcom clients__icons-img-1"></div> -->
+                                            </li>
+                                            <li>
+                                                <img src="assets/images/icons/Cisco.svg" alt="Yahoo">
+                                                <!-- <div class="icon icon--Cisco clients__icons-img-2"></div> -->
+                                            </li>
+                                            <li>
+                                                <img src="assets/images/icons/Apple.svg" alt="Microsoft">
+                                                <!-- <div class="icon icon--Apple clients__icons-img-3"></div> -->
+                                            </li>
+                                            <li>
+                                                <img src="assets/images/icons/Asus.svg" alt="Intel">
+                                                <!-- <div class="icon icon--Asus clients__icons-img-4"></div> -->
+                                            </li>
+                                </ul>
+                            </div>
+                        <div class="col col-sm-1">&nbsp;</div>
+                    </div> 
+            </div> 
+
+        <button class="generic-content__btn generic-content__btn-grey">See all client &rarr;</button>
+    </div>
+
+</div>
+</div>
+
+<!--TEAM-->
+<div class="page-section page-section__blue" id="team" data-link="#team-link">
+    <div class="wrapper">
+            <h1 class="generic-content__title">meet the team</h1>
+            <div class="generic-content__underline"></div>
+            <h2 class="generic-content__subtitle">Aenean commodo ligula eget dolor. Aenean massa.</h2>
+
+            <div class="generic-content__container-1">
+                <div class="row">
+                    <div class="col col-md-1">&nbsp;</div>
+                    <div class="col col-md-2">
+                        <div class="team">
+                            <div class="team__img">
+                                <img class="lazyload" data-src="assets/images/person1.jpg" alt="John Smith">
+                            </div>
+                            <h3 class="team__name">john smith</h3>
+                            <ul class="team__social-icons">
+                                    <li class="team__social-icons-icon">
+                                        <div class="team__social-icons-icon-container">
+                                            <a href="#">
+                                                <!-- <img src="assets/images/icons/twitter.svg" alt="Twitter"> -->
+                                                <div class="icon icon--twitter team__social-icons-icon-container-img"></div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="team__social-icons-icon">
+                                        <div class="team__social-icons-icon-container">
+                                            <a href="#">
+                                                <div class="icon icon--facebook team__social-icons-icon-container-img"></div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="team__social-icons-icon">
+                                        <div class="team__social-icons-icon-container">
+                                            <a href="#">
+                                                <!-- <img src="assets/images/icons/linkedin.svg" alt="Linkedin"> -->
+                                                <div class="icon icon--linkedin team__social-icons-icon-container-img"></div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="team__social-icons-icon">
+                                        <div class="team__social-icons-icon-container">
+                                            <a href="#">
+                                                <!-- <img src="assets/images/icons/rss.svg" alt="Rss"> -->
+                                                <div class="icon icon--rss team__social-icons-icon-container-img"></div>
+                                            </a>
+                                        </div>
+                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col col-md-2">
+                            <div class="team">
+                                <div class="team__img">
+                                    <img class="lazyload" data-src="assets/images/person2.jpg" alt="Jane Doe">
+                                </div>
+                                <h3 class="team__name">jane doe</h3>
+                                <ul class="team__social-icons">
+                                        <li class="team__social-icons-icon">
+                                            <div class="team__social-icons-icon-container">
+                                                <a href="#">
+                                                    <!-- <img src="assets/images/icons/twitter.svg" alt="Twitter"> -->
+                                                    <div class="icon icon--twitter team__social-icons-icon-container-img"></div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li class="team__social-icons-icon">
+                                            <div class="team__social-icons-icon-container">
+                                                <a href="#">
+                                                    <div class="icon icon--facebook team__social-icons-icon-container-img"></div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li class="team__social-icons-icon">
+                                            <div class="team__social-icons-icon-container">
+                                                <a href="#">
+                                                    <!-- <img src="assets/images/icons/linkedin.svg" alt="Linkedin"> -->
+                                                    <div class="icon icon--linkedin team__social-icons-icon-container-img"></div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                        <li class="team__social-icons-icon">
+                                            <div class="team__social-icons-icon-container">
+                                                <a href="#">
+                                                    <!-- <img src="assets/images/icons/rss.svg" alt="Rss"> -->
+                                                    <div class="icon icon--rss team__social-icons-icon-container-img"></div>
+                                                </a>
+                                            </div>
+                                        </li>
+                                </ul>
+                            </div>
+                    </div>
+                    <div class="col col-md-2">
+                            <div class="team">
+                                    <div class="team__img">
+                                        <img class="lazyload" data-src="assets/images/person3.jpg" alt="Charles Kent">
+                                    </div>
+                                    <h3 class="team__name">charles kent</h3>
+                                    <ul class="team__social-icons">
+                                            <li class="team__social-icons-icon">
+                                                <div class="team__social-icons-icon-container">
+                                                    <a href="#">
+                                                        <!-- <img src="assets/images/icons/twitter.svg" alt="Twitter"> -->
+                                                        <div class="icon icon--twitter team__social-icons-icon-container-img"></div>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="team__social-icons-icon">
+                                                <div class="team__social-icons-icon-container">
+                                                    <a href="#">
+                                                        <div class="icon icon--facebook team__social-icons-icon-container-img"></div>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="team__social-icons-icon">
+                                                <div class="team__social-icons-icon-container">
+                                                    <a href="#">
+                                                        <!-- <img src="assets/images/icons/linkedin.svg" alt="Linkedin"> -->
+                                                        <div class="icon icon--linkedin team__social-icons-icon-container-img"></div>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="team__social-icons-icon">
+                                                <div class="team__social-icons-icon-container">
+                                                    <a href="#">
+                                                        <!-- <img src="assets/images/icons/rss.svg" alt="Rss"> -->
+                                                        <div class="icon icon--rss team__social-icons-icon-container-img"></div>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                    </ul>                                                                                                                                                                                                                      </ul>
+                            </div>
+                    </div>
+                    <div class="col col-md-2">
+                            <div class="team">
+                                <div class="team__img">
+                                    <img class="lazyload" data-src="assets/images/person4.jpg" alt="Kevin Swanson">
+                                </div>
+                                    <h3 class="team__name">kevin swanson</h3>
+                                    <ul class="team__social-icons">
+                                            <li class="team__social-icons-icon">
+                                                <div class="team__social-icons-icon-container">
+                                                    <a href="#">
+                                                        <!-- <img src="assets/images/icons/twitter.svg" alt="Twitter"> -->
+                                                        <div class="icon icon--twitter team__social-icons-icon-container-img"></div>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="team__social-icons-icon">
+                                                <div class="team__social-icons-icon-container">
+                                                    <a href="#">
+                                                        <div class="icon icon--facebook team__social-icons-icon-container-img"></div>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="team__social-icons-icon">
+                                                <div class="team__social-icons-icon-container">
+                                                    <a href="#">
+                                                        <!-- <img src="assets/images/icons/linkedin.svg" alt="Linkedin"> -->
+                                                        <div class="icon icon--linkedin team__social-icons-icon-container-img"></div>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="team__social-icons-icon">
+                                                <div class="team__social-icons-icon-container">
+                                                    <a href="#">
+                                                        <!-- <img src="assets/images/icons/rss.svg" alt="Rss"> -->
+                                                        <div class="icon icon--rss team__social-icons-icon-container-img"></div>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                    </ul>
+                            </div>
+                    </div>
+                    <div class="col col-md-2">
+                            <div class="team team__no-bottom-m">
+                                    <div class="team__img">
+                                        <img class="lazyload" data-src="assets/images/person5.jpg" alt="Mary Geary">
+                                    </div>
+                                    <h3 class="team__name">mary geary</h3>
+                                    <ul class="team__social-icons">
+                                            <li class="team__social-icons-icon">
+                                                <div class="team__social-icons-icon-container">
+                                                    <a href="#">
+                                                        <!-- <img src="assets/images/icons/twitter.svg" alt="Twitter"> -->
+                                                        <div class="icon icon--twitter team__social-icons-icon-container-img"></div>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="team__social-icons-icon">
+                                                <div class="team__social-icons-icon-container">
+                                                    <a href="#">
+                                                        <div class="icon icon--facebook team__social-icons-icon-container-img"></div>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="team__social-icons-icon">
+                                                <div class="team__social-icons-icon-container">
+                                                    <a href="#">
+                                                        <!-- <img src="assets/images/icons/linkedin.svg" alt="Linkedin"> -->
+                                                        <div class="icon icon--linkedin team__social-icons-icon-container-img"></div>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="team__social-icons-icon">
+                                                <div class="team__social-icons-icon-container">
+                                                    <a href="#">
+                                                        <!-- <img src="assets/images/icons/rss.svg" alt="Rss"> -->
+                                                        <div class="icon icon--rss team__social-icons-icon-container-img"></div>
+                                                    </a>
+                                                </div>
+                                            </li>
+                                    </ul>
+                            </div>
+                    </div>
+                    <div class="col col-md-1">&nbsp;</div>
+                </div>
+            </div>
+    </div>
+</div>
+
+
+<section class="btn-work">
+    <div class="btn-work__container">
+        <button class="generic-content__btn generic-content__btn-blue open-contact-modal">Work With Us</button></div>
+</section>
+
+
+<footer class="site-footer">
+    <p>COPYRIGHT &copy; 2019</p>
+</footer>
+
+<div class="modal">
+    <div class="modal__inner">
+        <div class="contact">
+            <h1 class="generic-content__title generic-content__title-contact">get in touch</h1>
+            <div class="a">
+                <div class="contact__social-icons">
+                    <a href="#">
+                        <!-- <img src="assets/images/icons/twitter-white.svg" alt="Twitter"> -->
+                        <div class="icon icon--twitter-white"></div>
+                    </a>
+                    <a href="#">
+                        <!-- <img src="assets/images/icons/facebook-white.svg" alt="Facebook"> -->
+                        <div class="icon icon--facebook-white"></div>
+                    </a>
+                    <a href="#">
+                        <!-- <img src="assets/images/icons/linkedin-white.svg" alt="Linkedin"> -->
+                        <div class="icon icon--linkedin-white"></div>
+                    </a>
+                    <a href="#">
+                        <!-- <img src="assets/images/icons/rss-white.svg" alt="Rss"> -->
+                        <div class="icon icon--rss-white"></div>
+                    </a>
+                    <a href="#">
+                        <!-- <img src="assets/images/icons/behance-white.svg" alt="Behance"> -->
+                        <div class="icon icon--behance-white"></div>
+                    </a>
+                </div>
+                <form class="contact__form">
+                    <input type="text" class="contact__form-input contact__form-name" placeholder="Name">
+                    <input type="email" class="contact__form-input contact__form-email" placeholder="Email">
+                    <textarea class="contact__form-message" placeholder="Message"></textarea>
+                    <button class="contact__form-btn">send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="modal__close">X</div>
+</div>
+
+<!-- build:js /assets/scripts/App.js-->
+<script src="temp/scripts/App.js"></script>
+<!-- endbuild -->
+</body>
+</html>

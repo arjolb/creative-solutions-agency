@@ -1,0 +1,100 @@
+.team{
+    width: 140px;
+    margin: 0 auto 50px auto;
+    @mixin atMedium{
+        margin-bottom: 0;
+        width: auto;
+    }
+    &__no-bottom-m{
+        margin-bottom: 0;
+    }
+    &__img{
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 140px;
+        @mixin atMedium{
+            width: 100%;
+            margin-bottom: 17px;
+        }
+            img{
+                border-radius: 140px;
+                @mixin atMedium{
+                    width: 100%;
+                }
+            }
+    }
+
+    &__name{
+        font-size: rem(11px);
+        color: $white;
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: 6px;
+        @mixin atMedium{
+            margin-bottom: 10px;
+        }
+        @mixin atLarge{
+            font-size: rem($genericFontSize);
+        }
+    }
+    &__social-icons{
+        @mixin clearfix;
+        text-align: center;
+        &-icon{
+            list-style: none;
+            width: 25%;
+            float: left;
+            position: relative;
+            
+            &-container{
+                background: $white;
+                position: relative;
+                width: 30px;
+                height: 30px;
+                border-radius: 16px;
+                margin: auto;
+                @mixin atMedium{
+                    width: 22px;
+                    height: 22px;
+                }
+                @mixin atLarge{
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 25px;
+                }
+                &-img{
+                    display: block;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                @mixin atMedium{
+                    width: 10px;
+                    height: 10px;
+                }
+                @mixin atLarge{
+                    width: 16px;
+                    height: 16px;
+                }
+                }
+            }
+
+            /* img{
+                display: block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                @mixin atMedium{
+                    width: 10px;
+                    height: 10px;
+                }
+                @mixin atLarge{
+                    width: 16px;
+                    height: 16px;
+                }
+            } */
+        }
+    }
+}

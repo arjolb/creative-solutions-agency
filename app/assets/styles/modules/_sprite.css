@@ -1,0 +1,139 @@
+        .icon{
+            background-image: url('../../assets/images/sprites/svg/sprite.css-825bec79.svg');
+        }
+
+        .no-svg .icon{
+            background-image: url('../../assets/images/sprites/svg/sprite.css-825bec79.png');
+        }
+
+    .icon--Apple{
+        width: 49px;
+        height: 65px;
+        background-position: 23.529411764705884% 98.828125%;
+    }
+
+    .icon--Asus{
+        width: 98px;
+        height: 24px;
+        background-position: 99.23664122137404% 95.62289562289563%;
+    }
+
+    .icon--Cisco{
+        width: 118px;
+        height: 70px;
+        background-position: 67.828418230563% 72.22310756972112%;
+    }
+
+    .icon--Google{
+        width: 132px;
+        height: 51px;
+        background-position: 70.47353760445682% 20.74074074074074%;
+    }
+
+    .icon--Intel{
+        width: 104px;
+        height: 68px;
+        background-position: 0 100%;
+    }
+
+    .icon--InternetMarketing{
+        width: 101px;
+        height: 99px;
+        background-position: 100% 0;
+    }
+
+    .icon--Logo{
+        width: 128.81px;
+        height: 45.28px;
+        background-position: 69.85283966978658% 49.32540258232989%;
+    }
+
+    .icon--Microsoft{
+        width: 133px;
+        height: 33px;
+        background-position: 70.67039106145252% 7.986111111111111%;
+    }
+
+    .icon--Qualcom{
+        width: 137px;
+        height: 23px;
+        background-position: 71.46892655367232% 0;
+    }
+
+    .icon--WebDesign{
+        width: 100px;
+        height: 98px;
+        background-position: 99.74424552429667% 44.39461883408072%;
+    }
+
+    .icon--WebDevelopment{
+        width: 99px;
+        height: 87px;
+        background-position: 99.48979591836735% 84.1880341880342%;
+    }
+
+    .icon--Yahoo{
+        width: 129px;
+        height: 29px;
+        background-position: 69.88950276243094% 36.64383561643836%;
+    }
+
+    .icon--behance-white{
+        width: 22px;
+        height: 13px;
+        background-position: 83.15565031982942% 100%;
+    }
+
+    .icon--facebook{
+        width: 10px;
+        height: 17px;
+        background-position: 37.42203742203742% 83.22368421052632%;
+    }
+
+    .icon--facebook-white{
+        width: 10px;
+        height: 17px;
+        background-position: 35.343035343035346% 83.22368421052632%;
+    }
+
+    .icon--linkedin{
+        width: 13px;
+        height: 16px;
+        background-position: 39.7489539748954% 82.95081967213115%;
+    }
+
+    .icon--linkedin-white{
+        width: 13px;
+        height: 16px;
+        background-position: 42.46861924686193% 82.95081967213115%;
+    }
+
+    .icon--rss{
+        width: 19px;
+        height: 19px;
+        background-position: 78.60169491525424% 60.026490066225165%;
+    }
+
+    .icon--rss-white{
+        width: 19px;
+        height: 19px;
+        background-position: 78.60169491525424% 66.31788079470199%;
+    }
+
+    .icon--twitter{
+        width: 17px;
+        height: 18px;
+        background-position: 78.27004219409282% 72.36963696369637%;
+    }
+
+    .icon--twitter-white{
+        width: 17px;
+        height: 18px;
+        background-position: 32.278481012658226% 83.4983498349835%;
+    }
+
+    .icon--zoom{
+        width: 253px;
+        height: 253px;
+        background-position: 0 0;
+    }

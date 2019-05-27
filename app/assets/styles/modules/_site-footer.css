@@ -1,0 +1,9 @@
+.site-footer{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: rem(27px 0);
+    border-top: 1px solid white;
+    font-size: $navFooter;
+    font-weight: bold;
+}

@@ -1,0 +1,75 @@
+.services{
+    &__icon-container{
+        width: 140px;
+        height: 140px;
+        border-radius: 20px;
+        background: #cacfd7;
+        position: relative;
+        margin-bottom: rem(16px);
+        margin-left: auto;
+        margin-right: auto;
+        @mixin atMedium{
+            margin-bottom: rem(27px);
+        }
+        img{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateY(-50%) translateX(-50%);
+        }
+        &-img{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateY(-50%) translateX(-50%);
+        }
+    }
+    &__title{
+        font-size: rem(16px);
+        text-transform: uppercase;
+        margin-bottom: rem(9px);
+        text-align: center;
+        font-weight: 700;
+        @mixin atMedium{
+            margin-bottom: rem(16px);
+        }
+        @mixin atLarge{
+            font-size: $workAndServiceHeader;
+        }
+    }
+    &__description{
+        font-size: $navFooter;
+        margin-bottom: rem(9px);
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        line-height: 1.6;
+        max-width: 330px;
+        @mixin atMedium{
+            margin-bottom: rem(16px);
+            max-width: 230px;
+            font-size: $navFooter;
+        }
+    }
+    &__btn-container{
+        text-align: center;
+    }
+    &__btn{
+        width: 120px;
+        height: 30px;
+        background: $mainBlue;
+        color: $white;
+        text-transform: uppercase;
+        font-size: $navFooter;
+        border-radius: 8px;
+        border:none;
+        margin-bottom: rem(50px);
+        cursor: pointer;
+        &-no-bottom-m{
+            margin-bottom: 0;
+        }
+        @mixin atMedium{
+            margin-bottom: 0;
+        }
+    }
+}

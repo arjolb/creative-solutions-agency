@@ -1,0 +1,15 @@
+.page-section{
+    padding-top: rem(28px);
+    @mixin atMedium{
+        padding-top: rem(36px);
+    }
+    @mixin atLarge{
+        padding-top: rem(43px);
+    }
+    &__blue{
+        background: $secondaryBlue;
+    }
+    &__grey{
+        background: #eeeeee;
+    }
+}

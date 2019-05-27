@@ -1,0 +1,123 @@
+.row{
+    @mixin clearfix;
+    margin-right: rem(-20px);
+    @mixin atMedium{
+        margin-right: rem(-25px);
+    }
+    .col{
+        float: left;
+        width: 100%;
+        padding-right: rem(20px);
+        @mixin atMedium{
+            padding-right: rem(25px);
+        }
+        
+        &-sm-1 {
+            width: 8.33%;
+        }
+        &-sm-2 {
+            width: 16.66%;
+        }
+        &-sm-3 {
+            width: 25%;
+        }
+        &-sm-4 {
+            width: 33.33%;
+        }
+        &-sm-5 {
+            width: 41.66%;
+        }
+        &-sm-6 {
+            width: 50%;
+        }
+        &-sm-7 {
+            width: 58.33%;
+        }
+        &-sm-8 {
+            width: 66.66%;
+        }
+        &-sm-9 {
+            width: 75%;
+        }
+        &-sm-10 {
+            width: 83.33%;
+        }
+        &-sm-11 {
+            width: 91.66%;
+        }
+        &-sm-12 {
+            width: 100%;
+        }
+            
+        
+
+       @mixin atMedium{
+        &-md-1 {
+            width: 8.33%;
+            display: block;
+            
+        }
+        &-md-2 {
+            width: 16.66%;
+            display: block;
+            
+        }
+        &-md-3 {
+            width: 25%;
+            display: block;
+            
+        }
+        &-md-4 {
+            width: 33.33%;
+            display: block;
+            
+        }
+        &-md-5 {
+            width: 41.66%;
+            display: block;
+            
+        }
+        &-md-6 {
+            width: 50%;
+            display: block;
+            
+        }
+        &-md-7 {
+            width: 58.33%;
+            display: block;
+            
+        }
+        &-md-8 {
+            width: 66.66%;
+            display: block;
+            
+        }
+        &-md-9 {
+            width: 75%;
+            display: block;
+            
+        }
+        &-md-10 {
+            width: 83.33%;
+            display: block;
+            
+        }
+        &-md-11 {
+            width: 91.66%;
+            display: block;
+            
+        }
+        &-md-12 {
+            width: 100%;
+            display: block;
+            
+        }    
+       }
+    }
+
+
+
+    &__second-group{
+        margin-top: 29px;
+    }
+}

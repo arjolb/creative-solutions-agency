@@ -1,0 +1,91 @@
+.generic-content{
+    &__title{
+        color: $black;
+        text-align: center;
+        font-size: rem(30px);
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        margin-bottom: rem(15px);
+        @mixin atMedium{
+            font-size: rem(35px);
+        }
+        @mixin atLarge{
+            font-size: rem(40px);
+        }
+        &-contact{
+            color: $white;
+            letter-spacing: 0;
+        }
+    }
+    &__underline{
+        width: 45px;
+        height: 2px;
+        background: #333;
+        margin: auto;
+        &-contact{
+            background: #fff;
+        }
+    }
+    &__subtitle{
+        margin-top: rem(19px);
+        text-align: center;
+        font-size: rem(14px);
+        color: $black;
+        font-weight: 300;
+        &-contact{
+            color: #fff;
+        }
+        @mixin atMedium{
+            font-size: rem(20px);
+        }
+        @mixin atLarge{
+            font-size: $subHeaderSize;
+        }
+    }
+    &__container-1{
+        padding: rem(30px 0);
+        @mixin atMedium{
+            padding: rem(60px 0);
+        }
+        @mixin atLarge{
+            padding: rem(70px 0);
+        }
+        &-no-bottom-padding{
+            padding-bottom: 0;
+        }
+    }
+    &__container-2{
+        padding: rem(55px 0);
+        &-no-top-p{
+            padding-top: 0;
+            padding-bottom: rem(55px);
+        }
+        &-less-bottom-padding{
+            padding-bottom: rem(49px);
+        }
+    }
+    &__btn{
+        width: 160px;
+        height: 44px;
+        text-align: center;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        background: $mainBlue;
+        color: #fff;
+        border: none;
+        border-radius: 14px;
+        font-size: $genericFontSize;
+        margin-top: 55px;
+        cursor: pointer;
+        &-grey{
+            background: #a09f9f;
+        }
+        &-blue{
+            background: #0714cc;
+            margin-top: 0;
+            box-shadow: 0px 4px 2px #333;
+        }
+    }
+}
