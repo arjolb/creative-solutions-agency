@@ -39,7 +39,7 @@
     "gulp-svg2png": "^2.0.2",
     "jquery": "^3.4.1",
     "jquery-smooth-scroll": "^2.2.0",
-    "lazysizes": "^5.0.0",
+    "lazysizes": "^5.2.1",
     "lightbox2": "^2.11.0",
     "normalize.css": "^8.0.1",
     "picturefill": "^3.0.3",
