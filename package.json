@@ -13,7 +13,7 @@
     "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
     "autoprefixer": "^9.5.1",
-    "babel-loader": "^8.0.6",
+    "babel-loader": "^8.3.0",
     "browser-sync": "^2.26.5",
     "del": "^4.1.1",
     "gulp": "^3.9.1",
@@ -33,7 +33,7 @@
     "postcss-nested": "^4.1.2",
     "postcss-rem": "^1.1.4",
     "postcss-simple-vars": "^5.0.2",
-    "webpack": "^4.31.0"
+    "webpack": "^5.75.0"
   },
   "dependencies": {
     "gulp-svg2png": "^2.0.2",
